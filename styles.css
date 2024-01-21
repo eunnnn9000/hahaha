@@ -1,0 +1,119 @@
+body{background-color: lightgray;color:black;padding:0;margin:0;box-sizing: border-box;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif}
+
+.header{background-color:white;padding:40px;display: flex;justify-content: space-between;
+
+}
+.logo{justify-content: flex-start;}
+#red{color:rgb(211, 35, 35);font-weight:bold;font-size: 25px;}
+#green{color:rgb(89, 193, 51);font-weight:bold;font-size: 25px;}
+
+
+.menu a{justify-content: flex-end;
+    text-decoration: none;
+    margin-right:40px;color:black;}
+
+ .paragraph1 h2{font-size: 50px;font-weight: 70px;}
+   
+
+.contents{display: flex;flex-direction:row;margin-right:170px;
+    
+justify-content: space-evenly;}
+.contentLeft{
+    width:200px;
+    margin-left:40px;
+    margin-top: 85px;
+    
+}
+.contentLeft h2.p1{margin-bottom:-2em;}
+.contentLeft h2.p2{margin-top:1em;}
+
+.photos{justify-content:flex-end;display: flex;margin-top:140px;
+    position: relative;
+    
+}
+#photo1{margin-right:15px;position: relative;}
+
+#photo1 h2.first{
+    position:absolute;
+    top:310px;
+    left:214px;
+    background-color:#fff;
+    padding:4px;
+    text-transform:uppercase;
+}
+
+#photo2{margin-right: 15px;}
+
+#photo1 h2.second{    
+    position:absolute;
+    top:344px;
+    left:105px;
+    background-color:rgb(89, 193, 51);
+    color:#fff;
+    text-transform:uppercase;
+    width:65%;
+    bottom:3px;
+    margin-bottom: 0;
+    text-align: right;
+
+}
+
+.contentLeft h2{
+    font-size:40px;
+    margin:0px;
+    padding-top:40px;
+}
+
+#photo2{position: relative;}
+#photo2 h2.first{position:absolute;
+top:310px;
+left:214px;
+background-color: white;
+padding:7px;}
+
+
+
+
+#photo2 h2.second{    
+    position:absolute;
+    top:344px;
+    left:105px;
+    bottom:3px;
+    background-color:rgb(89, 193, 51);
+    color:#fff;
+    text-transform:uppercase;
+    display:inline-block;
+    text-align: right;
+    margin-bottom:0;
+    width: 65%;
+    box-sizing: border-box;
+    
+}
+#photo3{position: relative;}
+
+#photo3 h2.first{position:absolute;
+    top:310px;
+    left:156px;
+    background-color: white;
+    padding:7px;
+text-align: center;
+text-transform: uppercase;}
+
+    #photo3 h2.second{    
+        position:absolute;
+        top:344px;
+        left:105px;
+        bottom: 3px;
+       margin-bottom:0px;
+        background-color:rgb(89, 193, 51);
+        color:#fff;
+        text-transform:uppercase;
+        display: inline-block;
+        width:65%;
+       box-sizing: content-box;
+       text-align: right;
+        
+    }
+
+
